@@ -1,0 +1,109 @@
+V "GNAT Lib v2015"
+A -gnatA
+A -g
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=1
+
+U waiting_room%b	waiting_room.adb	62b01519 NE OO PK IL
+W ada.tags%s		a-tags.adb		a-tags.ali
+W review_settings%s	review_settings.ads	review_settings.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U waiting_room%s	waiting_room.ads	a8aaf0e2 EE OO PF PK IL
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W review_settings%s	review_settings.ads	review_settings.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-reatim.ads		20150518132148 a5838d5a ada.real_time%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D review_settings.ads	20160101174340 0b23c9ad review_settings%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-memory.ads		20150518132150 597d6634 system.memory%s
+D s-multip.ads		20150518132150 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20150518132150 2e5b26a9 system.os_interface%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stausa.ads		20150518132150 017a0a05 system.stack_usage%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stalib.adb		20150518132150 f2fe2716 system.standard_library%b
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20150518132150 601f6b72 system.task_info%s
+D s-taspri.ads		20150518132150 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20150518132150 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20150518132150 339749f0 system.tasking%s
+D s-taprob.ads		20150518132150 502249e3 system.tasking.protected_objects%s
+D s-tpoben.ads		20150518132150 b641f948 system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20150518132150 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-win32.ads		20150518132150 b7f96285 system.win32%s
+D waiting_room.ads	20160101200324 a389394f waiting_room%s
+D waiting_room.adb	20160101200344 ca1ae5fb waiting_room%b
+D "c:\mein zeug\studium\master\3. semester\rtpl\assignment2\post_exam_review_ada\post_exam_review_ada\config.adc"  20160101202948 00000000
+X 11 review_settings.ads
+3K9*Review_Settings 18e20 36|1w6 2r5 37|1w6 2r5
+16I13*Students_Range{integer} 36|6r48 7r33 13r26 37|6r48 19r33
+X 12 system.ads
+67M9*Address
+X 16 s-memory.ads
+53V13*Alloc{12|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{12|67M9} 105i<c,__gnat_realloc>22
+X 22 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 24 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 36 waiting_room.ads
+4K9*waiting_room 25l5 25e17 37|4b14 41l5 41t17
+5w14*waiting_room_protected 37|5b19 26l8 26t30
+6U17 review_Student 6<34 37|6b17 10l11 10t25
+6i34 stud_id{11|16I13} 37|6b34
+7Y13 wait 7>20 37|19b13 25l11 25t15
+7i20 stud_id{11|16I13} 37|23r31
+8U17 ta_ready 37|12b17 17l11 17t19
+11b7 student_is_waiting{boolean} 37|9r10 22r10
+12b7 ta_is_ready{boolean} 37|8r10 15r10 19r55
+13i7 actual_student_id{11|16I13} 37|23r10
+17w14*door_protected 37|28b19 39l8 39t22
+18Y13 sleep 37|29b13 33l11 33t16
+19U17 knock 37|35b17 38l11 38t16
+22b7 student_knocks{boolean} 37|29r24 32r10 37r10
+X 37 waiting_room.adb
+19i20 stud_id{11|16I13}
+

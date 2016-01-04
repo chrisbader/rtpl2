@@ -1,0 +1,62 @@
+V "GNAT Lib v2015"
+A -gnatA
+A -g
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U review_settings%s	review_settings.ads	aea044f7 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-reatim.ads		20150518132148 a5838d5a ada.real_time%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D review_settings.ads	20160101174340 0b23c9ad review_settings%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-multip.ads		20150518132150 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20150518132150 2e5b26a9 system.os_interface%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stausa.ads		20150518132150 017a0a05 system.stack_usage%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20150518132150 601f6b72 system.task_info%s
+D s-taspri.ads		20150518132150 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20150518132150 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20150518132150 339749f0 system.tasking%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-win32.ads		20150518132150 b7f96285 system.win32%s
+D "c:\mein zeug\studium\master\3. semester\rtpl\assignment2\post_exam_review_ada\post_exam_review_ada\config.adc"  20160101202948 00000000
+X 1 ada.ads
+16K9*Ada 19e8 8|1r6 7r28 7r55 8r28 8r55 9r26 9r53 10r24 10r51
+X 3 a-reatim.ads
+39K13*Real_Time 146e18 8|1w10 7r32 7r59 8r32 8r59 9r30 9r57 10r28 10r55
+50O9*Time_Span<duration> 8|7r42 8r42 9r40 10r38
+89V13*Milliseconds{50O9} 8|7s69 8s69 9s67 10s65
+X 8 review_settings.ads
+3K9*Review_Settings 18l5 18e20
+7o5*STUD_PERIOD{3|50O9}
+8o5*TIME_REVIEW{3|50O9}
+9o5*TIME_WALK{3|50O9}
+10o5*TA_MINT{3|50O9}
+11i5*N_SEATS{integer} 16r50 17r28
+16I13*Students_Range{integer}
+17M10*Seat_Range
+X 17 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

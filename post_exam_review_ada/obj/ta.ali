@@ -1,0 +1,142 @@
+V "GNAT Lib v2015"
+A -gnatA
+A -g
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_TASKS=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U ta%b			ta.adb			d9978155 OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.assertions%s	a-assert.adb		a-assert.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W busy_wait%s		busy_wait.adb		busy_wait.ali  AD
+W review_settings%s	review_settings.ads	review_settings.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W waiting_room%s	waiting_room.adb	waiting_room.ali  AD
+
+U ta%s			ta.ads			a633fa81 EE OO PK IU
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-assert.ads		20150518132148 a1febc19 ada.assertions%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20150518132148 a5838d5a ada.real_time%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D busy_wait.ads		20160101174340 bbc6a413 busy_wait%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D review_settings.ads	20160101174340 0b23c9ad review_settings%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-assert.ads		20150518132148 cd8d2c94 system.assertions%s
+D s-conca2.ads		20150518132148 02a0d7d0 system.concat_2%s
+D s-conca4.ads		20150518132148 7e642b20 system.concat_4%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-imgint.ads		20150518132150 02dbe0c2 system.img_int%s
+D s-multip.ads		20150518132150 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20150518132150 2e5b26a9 system.os_interface%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stausa.ads		20150518132150 017a0a05 system.stack_usage%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20150518132150 601f6b72 system.task_info%s
+D s-taspri.ads		20150518132150 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20150518132150 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20150518132150 339749f0 system.tasking%s
+D s-taprob.ads		20150518132150 502249e3 system.tasking.protected_objects%s
+D s-tpoben.ads		20150518132150 b641f948 system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20150518132150 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tassta.ads		20150518132150 70812003 system.tasking.stages%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D s-win32.ads		20150518132150 b7f96285 system.win32%s
+D ta.ads		20160101184546 a633fa81 ta%s
+D ta.adb		20160101201800 a70bad81 ta%b
+D waiting_room.ads	20160101200324 a389394f waiting_room%s
+D "c:\mein zeug\studium\master\3. semester\rtpl\assignment2\post_exam_review_ada\post_exam_review_ada\config.adc"  20160101202948 00000000
+X 1 ada.ads
+16K9*Ada 19e8 49|1r6 2r6 3r6 8r5 9r5 10r5
+X 2 a-assert.ads
+50K13*Assertions 66e19 49|2w10 9r9
+X 3 a-except.ads
+54K13*Exceptions 361e19 49|3w10 10r9
+104V13*Exception_Information{string} 49|44s23
+X 6 a-reatim.ads
+50O9*Time_Span<duration>
+X 9 a-textio.ads
+49K13*Text_IO 471e16 49|1w10 8r9
+263U14*Put_Line 49|22s9 27s13 37s13 39s13 43s13 44s13
+X 11 busy_wait.ads
+4K9*busy_wait 9e14 49|5w6 25r13 38r13
+8U15*delay_for 49|25s23 38s23
+X 16 review_settings.ads
+3K9*Review_Settings 18e20 49|4w6 11r5
+8o5*TIME_REVIEW{6|50O9} 49|38r33
+9o5*TIME_WALK{6|50O9} 49|25r33
+16I13*Students_Range{integer} 49|18r14
+X 33 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 48 ta.ads
+1K9*TA 7l5 7e7 49|14b14 50l5 50t7
+4t10*task_TA 49|16b15 46l9 46t16
+X 49 ta.adb
+17i9 stud_cnt{natural} 36m13 36r25 37r66
+18i9 id{16|16I13} 33m51 37r48 39r45
+42r14 Error{3|63R9} 44r45
+X 50 waiting_room.ads
+4K9*waiting_room 49|6w6 12r5 50|25e17
+5w14*waiting_room_protected 49|30r13 33r13
+6U17 review_Student 49|33s36
+8U17 ta_ready 49|30s36
+17w14*door_protected 49|31r10
+18Y13 sleep 49|31s25
+
